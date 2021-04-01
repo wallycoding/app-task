@@ -1,0 +1,21 @@
+.frame {
+    background-color: #16181d;
+    -webkit-app-region: drag;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.frame button {
+    -webkit-app-region: no-drag;
+    padding: 5px 15px 3px 15px;
+}
+.frame button svg {
+    font-size: 16px;
+    color: #b4b8b9;
+}
+.frame button:hover {
+    background-color: #515663a8;
+}
+.frame button:last-child:hover {
+    background-color: #f83a3aa8;
+}

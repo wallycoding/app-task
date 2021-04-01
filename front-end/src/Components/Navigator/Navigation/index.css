@@ -1,0 +1,30 @@
+.navigation-container {
+    display: flex;
+    height: 100vh;
+    background-color: #1b1e25;
+}
+.navigation-tab-left {
+    display: flex;
+    border-right: 1px #464b5350 solid;
+    flex-direction: column;
+}
+.navigation-tab-left button {
+    font-size: 25px;
+    color: #464b53;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 5px 15px;
+    transition: 0.8s;
+}
+
+.navigation-tab-left button.navigation-current-route {
+    box-shadow: inset 2px 0 0 0 #464b53;
+}
+
+.navigation-tab-left button:hover {
+    color: #b4b8b9;
+}
+.navigation-content {
+    display: flex;
+    flex: 1;
+}

@@ -1,0 +1,15 @@
+.check-box {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+}
+.check-box svg {
+    margin-right: 5px;
+    font-size: 16px;
+    transition: 0.8s;
+}
+.check-box span {
+    font-weight: 500;
+    color: #b4b8b9;
+    font-size: 16px;
+}
