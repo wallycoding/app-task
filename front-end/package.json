@@ -59,11 +59,25 @@
   "homepage": "https://github.com/wallycoding/app-task/#readme",
   "build": {
     "productName":"App Task",
-    "appId": "com.wally.productions.apptask",
-    "target": "NSIS",
-    "nsis": {
-      "allowToChangeInstallationDirectory": true,
-      "oneClick": false
+    "appId": "wallycoding.app.task",
+    "linux": {
+      "target": [
+        "dir"
+      ]
+    },
+    "win": {
+      "target": [
+        {
+          "target": "dir",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
+      ]
+    },
+    "mac": {
+      "category": "wallycoding.app.task"
     }
   }
 }
